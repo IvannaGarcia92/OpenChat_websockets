@@ -1,0 +1,17 @@
+<div class="container-fluid $light">
+    <h1 class="text-center mt-3 color-light $dark"> Open Chat </h1>
+
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-default"> Talk! </span>
+        <input type="text" id="chatBox" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+    </div>
+
+    <div class="message-container">
+        <ul id="messagesLogs" class="list-group p-3"></ul>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdn.socket.io/4.7.4/socket.io.min.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
